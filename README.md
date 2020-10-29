@@ -26,16 +26,19 @@ A aplicação usa uma fake API. Lista todos os produtos, adiciona itens ao carri
 ```bash
   
   # Clonar o repositório
-  $ git clone https://github.com/brunoOGA/desafio-conceito-node.git
+  $ git clone https://github.com/brunoOGA/desafio-fundamentos-react-native
   
   # Entrar no diretório
-  $ cd desafio-conceito-node.git
+  $ cd desafio-fundamentos-react-native
   
   # Instalar as dependências
   $ yarn
   
-  #Realizar os testes
+  # Realizar os testes
   $ yarn test
+  
+  # Iniciar API fake
+  yarn json-server server.json -p 3333
   
   # Iniciar o prjeto
   $ yarn start
